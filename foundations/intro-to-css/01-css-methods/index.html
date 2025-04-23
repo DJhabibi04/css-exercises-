@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="styles.css">
+      <style>  p {font-family: "Times New Roman", serif;
+                  color: white;
+                  background-color: green;
+                  font-size: 18px;}
+    </style>
     <title>Methods for Adding CSS</title>
   </head>
   <body>
-    <div>Style me via the external method!</div>
-    <p>I would like to be styled with the internal method, please.</p>
-    <button>Inline Method</button>
+   
+    <div> <!--SEE STYLES CSS... a red background, white text, 
+      a font size of 32px, center aligned, and bold -->
+      Style me via the external method!
+    </div>
+    <p>
+      <!--INTERNAL METHOD, SEE HEAD...
+      a green background, white text, and a font size of 18px-->
+      I would like to be styled with the internal method, please.
+    </p>     
+    <button style="font-family: Times New Roman, serif; 
+      background-color: orange; font-size: 18px">Inline Method</button>
   </body>
 </html>
